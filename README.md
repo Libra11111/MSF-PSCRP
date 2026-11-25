@@ -1,14 +1,10 @@
 # MSF-PSCRP
 
 Reference implementation of **Multi-Semantic Fusion for Port State Control Risk
-Prediction (MSF-PSCRP)**. The model fuses five ship-relation views and the target
-ship's own inspection history to predict three inspection outcomes jointly:
-whether a deficiency will be found, which deficiency categories will be recorded,
-and whether the ship will be detained.
-
-This repository contains the reference implementation of the model, together with
-the training configuration and the evaluation protocol used for the reported
-results.
+Prediction (MSF-PSCRP)**, published with the paper. The model fuses five
+ship-relation views and the target ship's own inspection history to predict three
+inspection outcomes jointly: whether a deficiency will be found, which deficiency
+categories will be recorded, and whether the ship will be detained.
 
 ---
 
@@ -101,7 +97,7 @@ bash scripts/run_smoke.sh
 # 2. recommended configuration (~10 min on one modern GPU)
 bash scripts/run_recommended_ann2020.sh
 
-# 3. manuscript-aligned full-history configuration (~3 h)
+# 3. full-history configuration (~3 h)
 bash scripts/run_full_history.sh
 ```
 
