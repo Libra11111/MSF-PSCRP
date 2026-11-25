@@ -1,0 +1,21 @@
+# data and artefacts (never commit)
+data/
+checkpoint/
+logs/
+*.ckpt
+*.npz
+*.pt
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
